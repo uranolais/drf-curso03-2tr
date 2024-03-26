@@ -60,3 +60,11 @@ python manage.py runserver
 
 Isso iniciará o servidor de desenvolvimento em `http://localhost:8000/`. Você pode acessar este URL em seu navegador para interagir com a API.
 
+## Script para Popular o Banco de Dados
+
+Você pode acessar e fazer download dos scripts na branch [`scripts`](https://github.com/uranolais/drf-escola-curso-02/tree/scripts). Para executar, basta abrir o terminal no diretório de sua aplicação e digitar os comandos:
+```
+python popular_banco_cursos.py
+python popular_banco_estudantes.py
+```
+E prontinho! Cursos e Estudantes foram criados :)
